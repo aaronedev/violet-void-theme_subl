@@ -412,7 +412,7 @@
         <key>name</key>
         <string>Function Name</string>
         <key>scope</key>
-        <string>entity.name.function, meta.function-call.generic</string>
+        <string>entity.name.function, entity.name.method, meta.function, meta.method, meta.function-call.generic</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -426,7 +426,7 @@
         <key>name</key>
         <string>Method Call</string>
         <key>scope</key>
-        <string>meta.method-call, meta.function-call</string>
+        <string>meta.method-call, meta.function-call, entity.name.function.call</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
