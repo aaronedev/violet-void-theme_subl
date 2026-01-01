@@ -1102,12 +1102,48 @@
           <string>#00a8a4</string>
         </dict>
       </dict>
+      <!-- Punctuation Accessors -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Accessor</string>
+        <key>scope</key>
+        <string>punctuation.accessor, punctuation.definition.accessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
       <!-- Brackets -->
       <dict>
         <key>name</key>
         <string>Brackets</string>
         <key>scope</key>
         <string>meta.brace, punctuation.definition.block, punctuation.definition.brackets</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#303030</string>
+        </dict>
+      </dict>
+      <!-- Punctuation Separators -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Separator</string>
+        <key>scope</key>
+        <string>punctuation.separator.comma, punctuation.separator.colon, punctuation.separator.key-value, punctuation.separator.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#303030</string>
+        </dict>
+      </dict>
+      <!-- Punctuation Terminators -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Terminator</string>
+        <key>scope</key>
+        <string>punctuation.terminator.statement, punctuation.terminator.expression</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
