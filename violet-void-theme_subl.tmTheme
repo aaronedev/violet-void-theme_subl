@@ -18,13 +18,13 @@
           <key>block_caret</key>
           <string>#a80065</string>
           <key>selection</key>
-          <string>#172030</string>
+          <string>#1a2438</string>
           <key>selectionForeground</key>
           <string>#f0f0f5</string>
           <key>invisibles</key>
           <string>#363636</string>
           <key>lineHighlight</key>
-          <string>#191919</string>
+          <string>#202020</string>
           <key>findHighlight</key>
           <string>#4b8afe</string>
           <key>findHighlightForeground</key>
@@ -48,7 +48,7 @@
           <key>stackGuide</key>
           <string>#252525</string>
           <key>gutterForeground</key>
-          <string>#242424</string>
+          <string>#3a3a3a</string>
           <key>gutterForegroundHighlight</key>
           <string>#ff7c7e</string>
         </dict>
@@ -62,7 +62,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#414141</string>
+          <string>#585858</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -626,6 +626,30 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Code Block</string>
+        <key>scope</key>
+        <string>markup.raw.block, markup.fenced_code.block</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+          <key>background</key>
+          <string>#151515</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Inline Code Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.raw.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown Link</string>
         <key>scope</key>
         <string>markup.underline.link</string>
@@ -646,6 +670,30 @@
         <dict>
           <key>foreground</key>
           <string>#00a8a4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown List Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.list.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Quote</string>
+        <key>scope</key>
+        <string>markup.quote</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7c60d1</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <!-- Python -->
