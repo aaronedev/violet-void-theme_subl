@@ -701,6 +701,32 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Underline</string>
+        <key>scope</key>
+        <string>markup.underline</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Strikethrough</string>
+        <key>scope</key>
+        <string>markup.strikethrough</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
+          <key>fontStyle</key>
+          <string>strikethrough</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown Code</string>
         <key>scope</key>
         <string>markup.raw.inline.markdown</string>
@@ -769,6 +795,30 @@
           <string>#319e8d</string>
           <key>fontStyle</key>
           <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Link Text</string>
+        <key>scope</key>
+        <string>markup.link.text</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#319e8d</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Link Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
         </dict>
       </dict>
       <dict>
