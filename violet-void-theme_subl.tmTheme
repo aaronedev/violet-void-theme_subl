@@ -93,6 +93,30 @@
           <string>#42ff97</string>
         </dict>
       </dict>
+      <!-- Quoted Strings -->
+      <dict>
+        <key>name</key>
+        <string>Quoted String</string>
+        <key>scope</key>
+        <string>string.quoted.double, string.quoted.single, string.quoted.triple, string.quoted.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
+      <!-- String Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>String Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
       <!-- String Interpolation -->
       <dict>
         <key>name</key>
@@ -129,6 +153,42 @@
           <string>#b4f9f8</string>
         </dict>
       </dict>
+      <!-- Regular Expression Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.string.regexp, punctuation.definition.character-class.regexp, constant.character.escape.regexp, constant.other.character-class.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff9aa1</string>
+        </dict>
+      </dict>
+      <!-- Regular Expression Character Classes -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Character Class</string>
+        <key>scope</key>
+        <string>punctuation.definition.character-class, constant.other.character-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <!-- Regular Expression Escapes/Groups -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Escapes/Groups</string>
+        <key>scope</key>
+        <string>constant.character.escape.regexp, punctuation.definition.group</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff7c7e</string>
+        </dict>
+      </dict>
       <!-- Escape Characters -->
       <dict>
         <key>name</key>
@@ -141,12 +201,48 @@
           <string>#ff7c7e</string>
         </dict>
       </dict>
+      <!-- Escape Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>Escape Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff7c7e</string>
+        </dict>
+      </dict>
       <!-- Numbers -->
       <dict>
         <key>name</key>
         <string>Number</string>
         <key>scope</key>
         <string>constant.numeric</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <!-- Numeric Types -->
+      <dict>
+        <key>name</key>
+        <string>Numeric Types</string>
+        <key>scope</key>
+        <string>constant.numeric.integer, constant.numeric.float</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <!-- Numeric Bases -->
+      <dict>
+        <key>name</key>
+        <string>Numeric Bases</string>
+        <key>scope</key>
+        <string>constant.numeric.hex, constant.numeric.octal, constant.numeric.binary</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -189,12 +285,48 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
+      <!-- Enum Constants -->
+      <dict>
+        <key>name</key>
+        <string>Enum Constant</string>
+        <key>scope</key>
+        <string>constant.other.enum, constant.other.enum-member</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Character/Symbol Constants -->
+      <dict>
+        <key>name</key>
+        <string>Character/Symbol Constant</string>
+        <key>scope</key>
+        <string>constant.character, constant.symbol</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
       <!-- User-defined Constants -->
       <dict>
         <key>name</key>
         <string>User-defined constant</string>
         <key>scope</key>
-        <string>constant.character, constant.other</string>
+        <string>constant.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
+      <!-- Symbol Constants -->
+      <dict>
+        <key>name</key>
+        <string>Symbol constant</string>
+        <key>scope</key>
+        <string>constant.other.symbol, variable.other.constant</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -230,11 +362,23 @@
         <key>name</key>
         <string>Function Parameter</string>
         <key>scope</key>
-        <string>variable.parameter, meta.parameter</string>
+        <string>variable.parameter, meta.parameter, meta.type.parameters, meta.function.parameters</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#7c60d1</string>
+        </dict>
+      </dict>
+      <!-- Labels -->
+      <dict>
+        <key>name</key>
+        <string>Label</string>
+        <key>scope</key>
+        <string>entity.name.label</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
         </dict>
       </dict>
       <!-- Keywords -->
@@ -259,6 +403,18 @@
         <dict>
           <key>foreground</key>
           <string>#fd7cff</string>
+        </dict>
+      </dict>
+      <!-- Import/Include Keywords -->
+      <dict>
+        <key>name</key>
+        <string>Import/Include Keyword</string>
+        <key>scope</key>
+        <string>keyword.control.import, keyword.control.include, keyword.control.import.include</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#bb7cff</string>
         </dict>
       </dict>
       <!-- Operators -->
@@ -290,7 +446,7 @@
         <key>name</key>
         <string>Storage Type</string>
         <key>scope</key>
-        <string>storage.type</string>
+        <string>storage.type, storage.type.generic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -376,7 +532,7 @@
         <key>name</key>
         <string>Function Name</string>
         <key>scope</key>
-        <string>entity.name.function, meta.function-call.generic</string>
+        <string>entity.name.function, entity.name.method, meta.function, meta.method, meta.function-call.generic</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -390,7 +546,7 @@
         <key>name</key>
         <string>Method Call</string>
         <key>scope</key>
-        <string>meta.method-call, meta.function-call</string>
+        <string>meta.method-call, meta.function-call, entity.name.function.call</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -447,6 +603,34 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
+      <!-- Built-in Functions -->
+      <dict>
+        <key>name</key>
+        <string>Built-in Function</string>
+        <key>scope</key>
+        <string>support.function.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#70c8ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <!-- Support Variables -->
+      <dict>
+        <key>name</key>
+        <string>Support Variable</string>
+        <key>scope</key>
+        <string>support.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
       <!-- Library Constants -->
       <dict>
         <key>name</key>
@@ -457,6 +641,20 @@
         <dict>
           <key>foreground</key>
           <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Built-in Support Constants -->
+      <dict>
+        <key>name</key>
+        <string>Built-in Support Constant</string>
+        <key>scope</key>
+        <string>support.constant.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <!-- Library Types -->
@@ -524,6 +722,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>diff.range.context</string>
+        <key>scope</key>
+        <string>meta.diff.range.context</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#29adff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.separator</string>
+        <key>scope</key>
+        <string>meta.diff.separator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f7c86a</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>diff.index</string>
         <key>scope</key>
         <string>meta.diff.index</string>
@@ -559,7 +779,7 @@
         <key>name</key>
         <string>diff.deleted</string>
         <key>scope</key>
-        <string>markup.deleted</string>
+        <string>markup.deleted, punctuation.definition.deleted, markup.deleted punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -572,7 +792,7 @@
         <key>name</key>
         <string>diff.inserted</string>
         <key>scope</key>
-        <string>markup.inserted</string>
+        <string>markup.inserted, punctuation.definition.inserted, markup.inserted punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -585,13 +805,35 @@
         <key>name</key>
         <string>diff.changed</string>
         <key>scope</key>
-        <string>markup.changed</string>
+        <string>markup.changed, punctuation.definition.changed, markup.changed punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#29adff</string>
           <key>background</key>
           <string>#004f4d</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.ignored</string>
+        <key>scope</key>
+        <string>markup.ignored</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7c60d1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.untracked</string>
+        <key>scope</key>
+        <string>markup.untracked</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ffad</string>
         </dict>
       </dict>
       <!-- JSON -->
@@ -737,6 +979,32 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Underline</string>
+        <key>scope</key>
+        <string>markup.underline</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Strikethrough</string>
+        <key>scope</key>
+        <string>markup.strikethrough</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
+          <key>fontStyle</key>
+          <string>strikethrough</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown Code</string>
         <key>scope</key>
         <string>markup.raw.inline.markdown</string>
@@ -805,6 +1073,30 @@
           <string>#319e8d</string>
           <key>fontStyle</key>
           <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Link Text</string>
+        <key>scope</key>
+        <string>markup.link.text</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#319e8d</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Link Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f0f0f5</string>
         </dict>
       </dict>
       <dict>
@@ -974,12 +1266,48 @@
           <string>#00a8a4</string>
         </dict>
       </dict>
+      <!-- Punctuation Accessors -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Accessor</string>
+        <key>scope</key>
+        <string>punctuation.accessor, punctuation.definition.accessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
       <!-- Brackets -->
       <dict>
         <key>name</key>
         <string>Brackets</string>
         <key>scope</key>
         <string>meta.brace, punctuation.definition.block, punctuation.definition.brackets</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#303030</string>
+        </dict>
+      </dict>
+      <!-- Punctuation Separators -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Separator</string>
+        <key>scope</key>
+        <string>punctuation.separator.comma, punctuation.separator.colon, punctuation.separator.key-value, punctuation.separator.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#303030</string>
+        </dict>
+      </dict>
+      <!-- Punctuation Terminators -->
+      <dict>
+        <key>name</key>
+        <string>Punctuation Terminator</string>
+        <key>scope</key>
+        <string>punctuation.terminator.statement, punctuation.terminator.expression</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1003,7 +1331,7 @@
         <key>name</key>
         <string>Annotation</string>
         <key>scope</key>
-        <string>storage.type.annotation, meta.annotation</string>
+        <string>storage.type.annotation, meta.annotation, punctuation.definition.annotation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
