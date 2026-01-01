@@ -314,7 +314,7 @@
         <key>name</key>
         <string>User-defined constant</string>
         <key>scope</key>
-        <string>constant.other</string>
+        <string>constant.other, constant.other.caps.rust, variable.other.constant.ruby</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -338,7 +338,7 @@
         <key>name</key>
         <string>Variable</string>
         <key>scope</key>
-        <string>variable</string>
+        <string>variable, variable.other.readwrite.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -386,7 +386,7 @@
         <key>name</key>
         <string>Keyword</string>
         <key>scope</key>
-        <string>keyword</string>
+        <string>keyword, keyword.other.rust, support.function.builtin.go</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -446,7 +446,7 @@
         <key>name</key>
         <string>Storage Type</string>
         <key>scope</key>
-        <string>storage.type, storage.type.generic</string>
+        <string>storage.type, storage.type.generic, storage.type.ts</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -470,7 +470,7 @@
         <key>name</key>
         <string>Type/Class</string>
         <key>scope</key>
-        <string>entity.name.type, entity.name.class</string>
+        <string>entity.name.type, entity.name.class, entity.name.type.ts, entity.name.type.rust</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -638,7 +638,7 @@
         <key>name</key>
         <string>Library Type</string>
         <key>scope</key>
-        <string>support.type, support.class</string>
+        <string>support.type, support.class, support.type.go, support.class.php</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
