@@ -93,6 +93,30 @@
           <string>#42ff97</string>
         </dict>
       </dict>
+      <!-- Quoted Strings -->
+      <dict>
+        <key>name</key>
+        <string>Quoted String</string>
+        <key>scope</key>
+        <string>string.quoted.double, string.quoted.single, string.quoted.triple, string.quoted.other</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
+      <!-- String Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>String Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
       <!-- String Interpolation -->
       <dict>
         <key>name</key>
@@ -135,6 +159,18 @@
         <string>Escape Characters</string>
         <key>scope</key>
         <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff7c7e</string>
+        </dict>
+      </dict>
+      <!-- Escape Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>Escape Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.escape</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
