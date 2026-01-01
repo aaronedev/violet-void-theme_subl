@@ -278,7 +278,7 @@
         <key>name</key>
         <string>Function Parameter</string>
         <key>scope</key>
-        <string>variable.parameter, meta.parameter</string>
+        <string>variable.parameter, meta.parameter, meta.type.parameters, meta.function.parameters</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -350,7 +350,7 @@
         <key>name</key>
         <string>Storage Type</string>
         <key>scope</key>
-        <string>storage.type</string>
+        <string>storage.type, storage.type.generic</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
