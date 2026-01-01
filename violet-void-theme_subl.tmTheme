@@ -615,7 +615,7 @@
         <key>name</key>
         <string>Markdown Code</string>
         <key>scope</key>
-        <string>markup.raw, markup.inline.raw</string>
+        <string>markup.raw.inline.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -628,7 +628,7 @@
         <key>name</key>
         <string>Markdown Code Block</string>
         <key>scope</key>
-        <string>markup.raw.block, markup.fenced_code.block</string>
+        <string>markup.raw.block.markdown, markup.fenced_code.block.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
