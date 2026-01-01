@@ -18,13 +18,13 @@
           <key>block_caret</key>
           <string>#a80065</string>
           <key>selection</key>
-          <string>#1a2438</string>
+          <string>#172030</string>
           <key>selectionForeground</key>
           <string>#f0f0f5</string>
           <key>invisibles</key>
           <string>#363636</string>
           <key>lineHighlight</key>
-          <string>#202020</string>
+          <string>#191919</string>
           <key>findHighlight</key>
           <string>#4b8afe</string>
           <key>findHighlightForeground</key>
@@ -48,7 +48,7 @@
           <key>stackGuide</key>
           <string>#252525</string>
           <key>gutterForeground</key>
-          <string>#3a3a3a</string>
+          <string>#242424</string>
           <key>gutterForegroundHighlight</key>
           <string>#ff7c7e</string>
         </dict>
@@ -62,7 +62,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#585858</string>
+          <string>#414141</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
