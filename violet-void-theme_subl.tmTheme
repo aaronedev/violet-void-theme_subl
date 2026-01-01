@@ -237,12 +237,36 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
+      <!-- Enum Constants -->
+      <dict>
+        <key>name</key>
+        <string>Enum Constant</string>
+        <key>scope</key>
+        <string>constant.other.enum, constant.other.enum-member</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Character/Symbol Constants -->
+      <dict>
+        <key>name</key>
+        <string>Character/Symbol Constant</string>
+        <key>scope</key>
+        <string>constant.character, constant.symbol</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
       <!-- User-defined Constants -->
       <dict>
         <key>name</key>
         <string>User-defined constant</string>
         <key>scope</key>
-        <string>constant.character, constant.other</string>
+        <string>constant.other</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
