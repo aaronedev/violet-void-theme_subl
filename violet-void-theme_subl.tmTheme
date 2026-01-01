@@ -477,16 +477,40 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
-      <!-- Namespace/Module/Section Names -->
+      <!-- Namespace/Module -->
       <dict>
         <key>name</key>
-        <string>Namespace/Module/Section</string>
+        <string>Namespace/Module</string>
         <key>scope</key>
-        <string>entity.name.namespace, entity.name.module, entity.name.section</string>
+        <string>entity.name.namespace, entity.name.module, support.namespace</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Type Parameters -->
+      <dict>
+        <key>name</key>
+        <string>Type Parameter</string>
+        <key>scope</key>
+        <string>entity.name.type.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Built-in/Primitive Types -->
+      <dict>
+        <key>name</key>
+        <string>Built-in/Primitive Type</string>
+        <key>scope</key>
+        <string>support.type.primitive, support.type.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#70c8ff</string>
         </dict>
       </dict>
       <!-- Inherited Class -->
