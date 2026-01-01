@@ -16,13 +16,13 @@
           <key>caret</key>
           <string>#ff1a67</string>
           <key>block_caret</key>
-          <string>#a80065</string>
+          <string>#fd0098</string>
           <key>selection</key>
-          <string>#172030</string>
+          <string>#1b1b1b</string>
           <key>selectionForeground</key>
           <string>#f0f0f5</string>
           <key>invisibles</key>
-          <string>#363636</string>
+          <string>#313131</string>
           <key>lineHighlight</key>
           <string>#191919</string>
           <key>findHighlight</key>
@@ -46,7 +46,7 @@
           <key>shadow</key>
           <string>#181818</string>
           <key>stackGuide</key>
-          <string>#252525</string>
+          <string>#242424</string>
           <key>gutterForeground</key>
           <string>#242424</string>
           <key>gutterForegroundHighlight</key>
@@ -62,7 +62,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#414141</string>
+          <string>#4c4c4c</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -432,7 +432,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#95b9cf</string>
+          <string>#70c8ff</string>
         </dict>
       </dict>
       <!-- Invalid Code -->
@@ -458,7 +458,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#a80065</string>
+          <string>#fd0098</string>
           <key>foreground</key>
           <string>#f0f0f5</string>
         </dict>
@@ -529,7 +529,7 @@
           <key>foreground</key>
           <string>#ff004b</string>
           <key>background</key>
-          <string>#33111c</string>
+          <string>#4f0017</string>
         </dict>
       </dict>
       <dict>
@@ -542,7 +542,7 @@
           <key>foreground</key>
           <string>#42ffad</string>
           <key>background</key>
-          <string>#173327</string>
+          <string>#144f36</string>
         </dict>
       </dict>
       <dict>
@@ -555,7 +555,7 @@
           <key>foreground</key>
           <string>#29adff</string>
           <key>background</key>
-          <string>#0d2625</string>
+          <string>#004f4d</string>
         </dict>
       </dict>
       <!-- JSON -->
@@ -722,7 +722,7 @@
           <key>foreground</key>
           <string>#42ff97</string>
           <key>background</key>
-          <string>#151515</string>
+          <string>#1b1b1b</string>
         </dict>
       </dict>
       <dict>
