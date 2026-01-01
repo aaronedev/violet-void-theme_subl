@@ -381,6 +381,18 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
+      <!-- Member/Property/Field Variables -->
+      <dict>
+        <key>name</key>
+        <string>Member Variable</string>
+        <key>scope</key>
+        <string>variable.other.member, variable.other.property, variable.other.field</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#29adff</string>
+        </dict>
+      </dict>
       <!-- Keywords -->
       <dict>
         <key>name</key>
@@ -549,6 +561,18 @@
         <string>Tag Attribute</string>
         <key>scope</key>
         <string>entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#29adff</string>
+        </dict>
+      </dict>
+      <!-- Class/ID Attributes -->
+      <dict>
+        <key>name</key>
+        <string>Class/ID Attribute</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name.class, entity.other.attribute-name.id</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
