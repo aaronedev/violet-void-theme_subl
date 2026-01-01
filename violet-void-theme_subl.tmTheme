@@ -411,6 +411,34 @@
           <string>#b6e3ff</string>
         </dict>
       </dict>
+      <!-- Built-in Functions -->
+      <dict>
+        <key>name</key>
+        <string>Built-in Function</string>
+        <key>scope</key>
+        <string>support.function.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#70c8ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <!-- Support Variables -->
+      <dict>
+        <key>name</key>
+        <string>Support Variable</string>
+        <key>scope</key>
+        <string>support.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
       <!-- Library Constants -->
       <dict>
         <key>name</key>
@@ -421,6 +449,20 @@
         <dict>
           <key>foreground</key>
           <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Built-in Support Constants -->
+      <dict>
+        <key>name</key>
+        <string>Built-in Support Constant</string>
+        <key>scope</key>
+        <string>support.constant.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+          <key>fontStyle</key>
+          <string>italic</string>
         </dict>
       </dict>
       <!-- Library Types -->
