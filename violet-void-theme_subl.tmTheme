@@ -165,6 +165,30 @@
           <string>#ff9aa1</string>
         </dict>
       </dict>
+      <!-- Regular Expression Character Classes -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Character Class</string>
+        <key>scope</key>
+        <string>punctuation.definition.character-class, constant.other.character-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <!-- Regular Expression Escapes/Groups -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Escapes/Groups</string>
+        <key>scope</key>
+        <string>constant.character.escape.regexp, punctuation.definition.group</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff7c7e</string>
+        </dict>
+      </dict>
       <!-- Escape Characters -->
       <dict>
         <key>name</key>
