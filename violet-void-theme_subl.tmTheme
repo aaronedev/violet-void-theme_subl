@@ -794,6 +794,50 @@
           <string>#fd7cff</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>YAML Unquoted String</string>
+        <key>scope</key>
+        <string>string.unquoted.plain.yaml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#8cff90</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>YAML Quoted String</string>
+        <key>scope</key>
+        <string>string.quoted.double.yaml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef2ff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>YAML Constant</string>
+        <key>scope</key>
+        <string>constant.language.yaml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ffd166</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>YAML Key-Value Separator</string>
+        <key>scope</key>
+        <string>punctuation.separator.key-value.yaml</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5f5f8a</string>
+        </dict>
+      </dict>
       <!-- Punctuation -->
       <dict>
         <key>name</key>
