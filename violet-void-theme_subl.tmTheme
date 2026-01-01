@@ -153,6 +153,18 @@
           <string>#b4f9f8</string>
         </dict>
       </dict>
+      <!-- Regular Expression Punctuation -->
+      <dict>
+        <key>name</key>
+        <string>Regular Expression Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.string.regexp, punctuation.definition.character-class.regexp, constant.character.escape.regexp, constant.other.character-class.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff9aa1</string>
+        </dict>
+      </dict>
       <!-- Escape Characters -->
       <dict>
         <key>name</key>
