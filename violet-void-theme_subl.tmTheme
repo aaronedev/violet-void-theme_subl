@@ -261,6 +261,18 @@
           <string>#fd7cff</string>
         </dict>
       </dict>
+      <!-- Import/Include Keywords -->
+      <dict>
+        <key>name</key>
+        <string>Import/Include Keyword</string>
+        <key>scope</key>
+        <string>keyword.control.import, keyword.control.include, keyword.control.import.include</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#bb7cff</string>
+        </dict>
+      </dict>
       <!-- Operators -->
       <dict>
         <key>name</key>
@@ -315,6 +327,18 @@
         <string>Type/Class</string>
         <key>scope</key>
         <string>entity.name.type, entity.name.class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
+        </dict>
+      </dict>
+      <!-- Namespace/Module/Section Names -->
+      <dict>
+        <key>name</key>
+        <string>Namespace/Module/Section</string>
+        <key>scope</key>
+        <string>entity.name.namespace, entity.name.module, entity.name.section</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
