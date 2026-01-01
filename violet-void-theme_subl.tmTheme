@@ -602,6 +602,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>diff.range.context</string>
+        <key>scope</key>
+        <string>meta.diff.range.context</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#29adff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.separator</string>
+        <key>scope</key>
+        <string>meta.diff.separator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f7c86a</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>diff.index</string>
         <key>scope</key>
         <string>meta.diff.index</string>
@@ -637,7 +659,7 @@
         <key>name</key>
         <string>diff.deleted</string>
         <key>scope</key>
-        <string>markup.deleted</string>
+        <string>markup.deleted, punctuation.definition.deleted, markup.deleted punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -650,7 +672,7 @@
         <key>name</key>
         <string>diff.inserted</string>
         <key>scope</key>
-        <string>markup.inserted</string>
+        <string>markup.inserted, punctuation.definition.inserted, markup.inserted punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -663,13 +685,35 @@
         <key>name</key>
         <string>diff.changed</string>
         <key>scope</key>
-        <string>markup.changed</string>
+        <string>markup.changed, punctuation.definition.changed, markup.changed punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#29adff</string>
           <key>background</key>
           <string>#004f4d</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.ignored</string>
+        <key>scope</key>
+        <string>markup.ignored</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7c60d1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>diff.untracked</string>
+        <key>scope</key>
+        <string>markup.untracked</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ffad</string>
         </dict>
       </dict>
       <!-- JSON -->
