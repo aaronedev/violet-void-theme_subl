@@ -773,6 +773,19 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Link URL/Title</string>
+        <key>scope</key>
+        <string>markup.underline.link.markdown, markup.link.url.markdown, meta.link.inline.markdown, string.other.link.title.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#319e8d</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown List</string>
         <key>scope</key>
         <string>markup.list</string>
