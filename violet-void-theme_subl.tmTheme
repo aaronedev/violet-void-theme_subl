@@ -639,6 +639,28 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Fenced Code Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.fenced.markdown, punctuation.definition.fenced_code.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Fenced Code Language</string>
+        <key>scope</key>
+        <string>fenced_code.block.language, fenced_code.block.language.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown Inline Code Punctuation</string>
         <key>scope</key>
         <string>punctuation.definition.raw.markdown</string>
