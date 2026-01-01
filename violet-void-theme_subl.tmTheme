@@ -718,6 +718,17 @@
           <string>italic</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Blockquote Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.blockquote.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7c60d1</string>
+        </dict>
+      </dict>
       <!-- Python -->
       <dict>
         <key>name</key>
