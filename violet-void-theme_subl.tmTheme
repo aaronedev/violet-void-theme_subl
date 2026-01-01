@@ -201,6 +201,30 @@
           <string>#00fff9</string>
         </dict>
       </dict>
+      <!-- Numeric Types -->
+      <dict>
+        <key>name</key>
+        <string>Numeric Types</string>
+        <key>scope</key>
+        <string>constant.numeric.integer, constant.numeric.float</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <!-- Numeric Bases -->
+      <dict>
+        <key>name</key>
+        <string>Numeric Bases</string>
+        <key>scope</key>
+        <string>constant.numeric.hex, constant.numeric.octal, constant.numeric.binary</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
       <!-- Boolean -->
       <dict>
         <key>name</key>
