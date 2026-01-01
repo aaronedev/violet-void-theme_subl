@@ -526,6 +526,39 @@
           <string>#42ff97</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Literal</string>
+        <key>scope</key>
+        <string>constant.language.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ff7c7e</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Number</string>
+        <key>scope</key>
+        <string>constant.numeric.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00fff9</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Separator</string>
+        <key>scope</key>
+        <string>punctuation.separator.dictionary.json, punctuation.separator.array.json</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#00a8a4</string>
+        </dict>
+      </dict>
       <!-- CSS -->
       <dict>
         <key>name</key>
