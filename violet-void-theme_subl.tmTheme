@@ -249,6 +249,18 @@
           <string>#42ff97</string>
         </dict>
       </dict>
+      <!-- Symbol Constants -->
+      <dict>
+        <key>name</key>
+        <string>Symbol constant</string>
+        <key>scope</key>
+        <string>constant.other.symbol, variable.other.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#42ff97</string>
+        </dict>
+      </dict>
       <!-- Variables -->
       <dict>
         <key>name</key>
@@ -283,6 +295,18 @@
         <dict>
           <key>foreground</key>
           <string>#7c60d1</string>
+        </dict>
+      </dict>
+      <!-- Labels -->
+      <dict>
+        <key>name</key>
+        <string>Label</string>
+        <key>scope</key>
+        <string>entity.name.label</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b6e3ff</string>
         </dict>
       </dict>
       <!-- Keywords -->
@@ -1131,7 +1155,7 @@
         <key>name</key>
         <string>Annotation</string>
         <key>scope</key>
-        <string>storage.type.annotation, meta.annotation</string>
+        <string>storage.type.annotation, meta.annotation, punctuation.definition.annotation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
